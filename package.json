@@ -1,0 +1,14 @@
+{
+  "name": "scribe-demo-public",
+  "version": "0.1.0",
+  "private": false,
+  "type": "module",
+  "description": "Small public demo repository for SCRIBE read-only repo scan.",
+  "scripts": {
+    "test": "node --test tests/app.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
